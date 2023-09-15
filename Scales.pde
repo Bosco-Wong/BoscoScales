@@ -53,17 +53,18 @@ void draw (){
  delay(5000);
   //delay so that every 5 seconds, the scales have randomized colors
   
-   if (mousePressed == true) {
+/*   if (mousePressed == true) {
     for ( int y = -10; y < 850; y +=25){
   for( int x = -10; x < 1250; x+=20) {
     scale(x,y);
     loop();
-  }
     }
-    
+  }
+}
+    */
     //conditional to change scale pattern when left clicked (didn't work sadly)
  
-  }
+  
 }
 
 
